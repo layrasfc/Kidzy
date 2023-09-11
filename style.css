@@ -1,0 +1,85 @@
+/* # ID | . CLASS */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+* { /* resetar o style */ /*deixa o site centralizado */
+    padding: 0; /* nós que iremos configurar os paddings */
+    margin: 0;
+}
+
+/* MENU  */
+#menu-container {
+    background-color: #530b0b;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+#menu-logotipo {
+    margin: 20px;
+    height: 30%;
+    display: flex;
+}
+
+/* OPTIONS 1 */
+.menu-op1 {
+    display: flex;
+}
+.menu-text {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    color: black;
+    padding: 10px 15px 10px 15px;
+}
+
+/* OPTIONS 2 */
+.menu-op2 {
+    display: flex;
+
+}
+
+.menu-buttom1 {
+    border: 0px;
+    border-radius: 16px;
+    padding: 12px 20px 10px 20px;
+    background-color: #450EB0;
+    margin: 10px 5px 10px 0px;
+    
+}
+#carrinho {
+    height: 13px;
+    
+}
+.menu-buttom2 {
+    border: 0px;
+    border-radius: 16px;
+    padding: 10px 20px 10px 20px;
+    background-color: #450EB0;
+    margin: 10px 0px 10px 5px;
+    
+}
+.menu-buttom2 a{
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* BANNER */
+.banner-container {
+    background-color: rgb(122, 97, 97);
+    justify-items: center;
+
+}
+
+#banner-img {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    width: 98%;
+    border-radius: 30px;
+   
+}
