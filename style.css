@@ -86,7 +86,6 @@
     padding: 0px 250px;
     height: 100%;
     width: auto;
-    margin: 0px 10px auto;
     position: relative;
     min-height: 80%;
 }
@@ -102,7 +101,7 @@
 
 }
 
-/* CONTEUDO */
+/* DESTAQUES */
 
 .destaques-container {
     padding: 0px 80px;
@@ -133,7 +132,7 @@
     justify-content:space-between;
     align-items: center;
     padding: 0px 10%;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     
 }
 .option {
@@ -143,6 +142,10 @@
 
 .op-content {
     padding: 20px;
+}
+
+.options-img {
+    width: 200px;
 }
 
 .op-info {
@@ -156,4 +159,9 @@
     border-radius: 16px;
     padding: 12px 15px 10px 15px;
     background-color: #450EB0;
+}
+
+/* AVALIAÇÕES */
+.aval {
+    background-color: #c1acec;
 }
