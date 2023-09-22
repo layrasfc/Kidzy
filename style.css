@@ -46,6 +46,7 @@
     padding: 12px 20px 10px 20px;
     background-color: #450EB0;
     margin: 10px 5px 10px 0px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
     
 }
 #carrinho {
@@ -58,6 +59,7 @@
     padding: 10px 20px 10px 20px;
     background-color: #450EB0;
     margin: 10px 0px 10px 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
     
 }
 .menu-buttom2 a{
@@ -73,8 +75,8 @@
 
 
 /* BANNER */
-.banner-container {
-    background-image: url(images/fundo-banner.png);
+.ban-con-1 {
+    background-image: url(images/fundo-banner1.png);
     background-size: cover;
     background-repeat: no-repeat; /* Evita que a imagem seja repetida */
     background-attachment:local;
@@ -87,23 +89,38 @@
     height: 100%;
     width: auto;
     position: relative;
-    min-height: 80%;
+    min-width: 60%;
 }
 
 #banner-text {
     width: 50%;
-    min-width: 300px;
 }
 
 #banner-img {
-    width: 45%;
-    min-width: 300px; 
+    height: 72%;
+    min-width: 50%;
+}
 
+.ban-con-2 {
+    background-image: url(images/fundo-banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+    background-attachment:local;
+    background-position: center;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menino-ban2 {
+    height: 400px;
 }
 
 /* DESTAQUES */
 
-.destaques-container {
+.section-container {
     padding: 0px 80px;
 }
 
@@ -111,11 +128,18 @@
     padding: 50px 0px 20px 0px;
 }
 
+.content-container {
+    display: flex;
+    align-items: center;
+    margin: 0% 10% 3% 10%;
+}
+
+
 .titulos {
     display: flex;
     font-family: 'Mochiy Pop One', sans-serif;
     color: #4007B0;
-    font-size: 1.25em ;  
+    font-size: 1.25em ;
     padding-bottom: 5px;  
 }
 
@@ -124,34 +148,39 @@
     font-weight: 400;
     color: #F37DC7;
     display: flex;
-    font-size: 0.98em;
+    font-size: 0.98rem;
 }
 
 .options-container {
     display: flex;
-    justify-content:space-between;
     align-items: center;
-    padding: 0px 10%;
-    /* flex-wrap: wrap; */
-    
+    justify-content: center;
+    column-gap: 2%;
+    flex-wrap: wrap;
 }
+
 .option {
     display: flex;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.050);
+    margin: 15px 0px 0px 0px;
+    border-radius: 2%;
 }
 
 .op-content {
-    padding: 20px;
+    padding: 14px;
 }
 
 .options-img {
-    width: 200px;
+    width: 20em; 
+    border-radius: 2%;
 }
 
 .op-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2%;
 }
 
 .buy-buttom {
@@ -159,9 +188,86 @@
     border-radius: 16px;
     padding: 12px 15px 10px 15px;
     background-color: #450EB0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
 }
 
+.price{
+    font-weight: 600;
+}
 /* AVALIAÇÕES */
 .aval {
-    background-color: #c1acec;
+    background: linear-gradient(to bottom, #ffecf8, #e2e3ff);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+    justify-content: center;
+    min-height: 30%;
+}
+
+p, h1, h2, h3, a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.aval-text h1{
+    font-weight: 600;
+}
+
+.aval-text p{
+    font-weight: 400;
+    padding-top: 2%;
+}
+
+.aval-img {
+    margin-right: 3%;
+    
+}
+
+/* TEXTO */
+.text-container {
+    display: flex;
+    align-items: center;
+    min-width: 20%;
+}
+
+.texto-img {
+    width: 35%;
+    margin-right: 3%;
+    min-width: 10%;
+}
+
+
+.texto-text {
+    width: 70%;
+    min-width: 10%;
+}
+
+
+.texto-text h2{
+    font-size: 1.57rem;;
+    color: #3905A0;
+}
+
+
+.texto-text p{
+    font-size: 1.25rem;;
+    margin-top: 3%;
+    text-align: justify;
+}
+
+/* RODAPÉ */
+#rodape-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: #C36AED;
+}
+
+.text-rodape {
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    margin: 40px;
 }
