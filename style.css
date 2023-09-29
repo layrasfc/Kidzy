@@ -181,6 +181,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+
+}
+
+.op-text {
+    color: #000;
 }
 
 .buy-buttom {
@@ -209,6 +214,7 @@
 
 p, h1, h2, h3, a {
     font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
 }
 
 .aval-text h1{
@@ -266,8 +272,47 @@ p, h1, h2, h3, a {
 }
 
 .text-rodape {
+    text-decoration: none;
     color: #ffffff;
     font-weight: 600;
     display: flex;
     margin: 40px;
+}
+
+/* Product page */
+.imagens-product{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tam-img {
+   
+    width: 100px;
+   
+}
+
+.tam-img img{
+   
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-container {
+    display: flex;
+}
+
+.product-image-container {
+    display: flex;
+}
+
+.principal-img {
+    width: 510px;
+    
+}
+
+.principal-img img {
+    width: 100%;
+    
 }
