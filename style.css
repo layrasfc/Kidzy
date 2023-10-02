@@ -371,3 +371,27 @@ p, h1, h2, h3, a, label {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1rem;
 }
+
+.text-aboutUs {
+    padding: 60px;
+}
+
+.text-aboutUs p{
+    text-align: justify;
+    font-size: 1.15rem;
+    padding-top: 1%;
+
+}
+
+.text-aboutUs h2{
+    color: #EF119C;
+    font-weight: 600;
+    font-size: 1.20;
+    padding-top: 3%;
+}
+
+.text-aboutUs h1{
+    color: #330097;
+    font-weight: 600;
+    font-size: 1.70rem;
+}
