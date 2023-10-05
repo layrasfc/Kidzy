@@ -395,3 +395,11 @@ p, h1, h2, h3, a, label {
     font-weight: 600;
     font-size: 1.70rem;
 }
+
+.carrinho-option{
+    display: flex;
+}
+
+.qtd-carrinho{
+    display: flex;
+}
