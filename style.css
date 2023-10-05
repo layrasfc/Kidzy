@@ -398,8 +398,29 @@ p, h1, h2, h3, a, label {
 
 .carrinho-option{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .qtd-carrinho{
     display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.carrinho-option-img{
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.carrinho-option-img img{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.carrinho-container{
+    padding: 0px 450px;
 }
