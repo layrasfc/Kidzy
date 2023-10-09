@@ -136,7 +136,7 @@ for (let index = 0; index < catalogPrincipal.length; index++) {
                 <p class="name">${element.name}</p>
                 <p class="price">R$${element.price}</p>
             </div>
-                <button type="button" class="buy-buttom"><a href="productPage.html"><img src="images/carrinho.svg" class="options-button"></a></button>
+                <button type="button" class="buttom"><a href="productPage.html"><img src="images/carrinho.svg" class="options-button"></a></button>
         </div>
     </div>
 </div>`
