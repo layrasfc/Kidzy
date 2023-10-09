@@ -10,4 +10,9 @@ A Caixa de Encaixar Formas é um brinquedo sensorial projetado para crianças em
 Itens: 1 caixa sensorial, 6 formas diversas
 Idade: 1-3
 
-Preço: 49,99
+Preço: 49.99
+
+Produto 4 - Máquina de bolhas
+Texto:
+
+Preço: 40.99

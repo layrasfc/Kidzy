@@ -121,7 +121,7 @@
     font-size: 1rem;
 }
 
-.options-container {
+#options-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,6 +263,7 @@ p, h1, h2, h3, a, label {
 .product-container {
     padding: 1% 8% 0%;
 }
+
 .tam-img {
     padding: 15px 0px 15px 0px;
     width: 100px;
