@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <title>Kidzy | Página de</title>
 </head>
 <body>
-    <!-- Menu -->
     <header>
         <nav id="menu-container">
             <a href="#" ><img src="images/Kidzy.svg" id="menu-logotipo" alt="Logo"></a>
-            <div id="menu-op">
-                <a href="index.html" class="menu-text">Home</a>
-                <a href="catalog.html" class="menu-text">Catálogo</a>
-                <a href="aboutUs.html" class="menu-text">Sobre nós</a>
+            <div class="menu-options">
+                <a href="index.html">Home</a>
+                <a href="catalog.html">Catálogo</a>
+                <a href="aboutUs.html">Sobre nós</a>
             </div>
-            <div class="menu-op2">
-                <button class="menu-buttom1"><a href="carrinho.html"><img src="images/carrinho.svg" id="carrinho" alt="carrinho"></a></button>
-                <button class="menu-buttom2"><a href="#">Login</a></button>
+            <div class="menu-options">
+                <a href="carrinho.html"><button class="buttom"><img src="images/carrinho.svg" id="carrinho" alt="carrinho"></button></a>
+                <a href="login.html"><button class="buttom">Login</button></a>
             </div>
         </nav>
-        </header>
+    </header>
 
-    <div class="section-container">
+    <main>
+    <section class="section-container">
         <div class="title-section">
-            <h1 class="titulos">> Produtos</h1>
-            <p class="subtitulos">Saiba mais sobre nossos produtos!</p>
+            <h1>> Produtos</h1>
+            <p>Saiba mais sobre nossos produtos!</p>
         </div>
 
         <div class="product-container">
             <div class="product-image-container">
                 <div class="imagens-product">
-                            <div class="tam-img"><img src="images/produts/p3/principal.jpg" alt=""></div>
-                            <div class="tam-img"><img src="images/produts/p3/extra.jpg" alt=""></div>
-                            <div class="tam-img"><img src="images/produts/p3/info.jpg" alt=""></div>
-                            <div class="tam-img"><img src="images/produts/p3/modelos.jpg" alt=""></div>
+                    <div class="tam-img"><img src="images/produts/p3/principal.jpg" alt=""></div>
+                    <div class="tam-img"><img src="images/produts/p3/extra.jpg" alt=""></div>
+                    <div class="tam-img"><img src="images/produts/p3/info.jpg" alt=""></div>
+                    <div class="tam-img"><img src="images/produts/p3/modelos.jpg" alt=""></div>
                 </div>
         
                 <div class="principal-img">
@@ -46,57 +46,59 @@
 
             <div class="product-text-container">
                 <div class="section-product">
-                <div class="text-product">
-                    <div class="info-product">
-                        <h1>Caixa de encaixar formas</h1>
-                        <div class="text-p">
-                        <p class="section-text">Descrição</p>
-                        <p class="descrition-product">A Caixa de Encaixar Formas é um brinquedo sensorial projetado para crianças em fase pré-escolar que oferece uma experiência educativa para o desenvolvimento cognitivo dos pequenos.</p>
+                    <div class="text-product">
+                        <div class="info-product">
+                            <h1>Caixa de encaixar formas</h1>
+                            <div class="text-p">
+                            <p class="section-text">Descrição</p>
+                            <p class="descrition-product">A Caixa de Encaixar Formas é um brinquedo sensorial projetado para crianças em fase pré-escolar que oferece uma experiência educativa para o desenvolvimento cognitivo dos pequenos.</p>
+                            </div>
+
+                            <div class="text-p">
+                            <p class="espec-product">Itens: 1 caixa sensorial, 6 formas diversas</p>
+                            <p class="espec-product">Idade: 1-3</p>
+                            </div>
                         </div>
 
-                        <div class="text-p">
-                        <p class="espec-product">Itens: 1 caixa sensorial, 6 formas diversas</p>
-                        <p class="espec-product">Idade: 1-3</p>
+                        <div class="options-product">
+                            <div class="tam">
+                                <p class="section-text">Tamanho</p>
+                                <input type="radio" id="tamanho" name="tamanho" value="tamanho">
+                                <label for="tamanho">Único</label>
+                            </div>
+                            <div class="color">
+                                <p class="section-text">Cor</p>
+                                <input type="radio" id="color" name="color" value="color">
+                                <label for="color">Padrão</label>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="options-product">
-                        <div class="tam">
-                            <p class="section-text">Tamanho</p>
-                            <input type="radio" id="tamanho" name="tamanho" value="tamanho">
-                            <label for="tamanho">Único</label>
-                        </div>
-                        <div class="color">
-                            <p class="section-text">Cor</p>
-                            <input type="radio" id="color" name="color" value="color">
-                            <label for="color">Padrão</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="continuar-compra">
+
+                    <div class="continuar-compra">
                         <div class="valor">
                             <p class="section-text">Preço</p>
                             <h2>R$49,99</h2>
                         </div>
-                        
+                            
                         <div class="adicionar">
-                            <button type="button" class="botao-principal">Adicionar ao carrinho</button>
+                            <button type="button" class="buttom">Adicionar ao carrinho</button>
                         </div>
-                </div>
-            </div>
-
-                
+                    </div>
             </div>
         </div>
-    </div>
-        
 
+        </div>
+    <section>
+    </main>
 
-
-    <!-- RODAPÉ -->
-    <div id="rodape-container">
-        <a href="index.html" class="text-rodape">Home</a>
-        <a href="aboutUs.html" class="text-rodape">Sobre nós</a>
-        <a href="catalog.html" class="text-rodape">Catálogo</a>
-    </div>
+    <!-- R O D A P É -->
+    <footer>
+        <section id="rodape-container">
+            <a href="index.html"><p>Home</p></a>
+            <a href="aboutUs.html"><p>Sobre nós</p></a>
+            <a href="catalog.html"><p>Catálogo</p></a>
+        </section>
+    </footer>
 </body>
 </html>

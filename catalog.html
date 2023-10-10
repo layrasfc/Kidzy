@@ -3,63 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <title>Kidzy | Catálogo</title>
     <script type="module" src="./scripts/main.js" defer></script>
 </head>
 <body>
-    <!-- M E N U  -->
     <header>
+        <!-- M E N U -->
         <nav id="menu-container">
             <a href="#" ><img src="images/Kidzy.svg" id="menu-logotipo" alt="Logo"></a>
-            <div id="menu-op">
-                <a href="index.html" class="menu-text">Home</a>
-                <a href="catalog.html" class="menu-text">Catálogo</a>
-                <a href="aboutUs.html" class="menu-text">Sobre nós</a>
+            <div class="menu-options">
+                <a href="index.html">Home</a>
+                <a href="catalog.html">Catálogo</a>
+                <a href="aboutUs.html">Sobre nós</a>
             </div>
-            <div class="menu-op2">
-                <button class="menu-buttom1"><a href="productPage.html"><img src="images/carrinho.svg" id="carrinho" alt="carrinho"></a></button>
-                <button class="menu-buttom2"><a href="#">Login</a></button>
+            <div class="menu-options">
+                <a href="carrinho.html"><button class="buttom"><img src="images/carrinho.svg" id="carrinho" alt="carrinho"></button></a>
+                <a href="login.html"><button class="buttom">Login</button></a>
             </div>
         </nav>
-    </header>
 
         <!-- B A N N E R -->
         <div class="banner">
             <img src="images/Banners/CatalogBanner.svg" alt="" srcset="">
-
         </div>
+    </header>
 
-    <div class="section-container">
-        <div class="title-section">
-            <h1 class="titulos">> Descubra nosso catálogo</h1>
-            <p class="subtitulos">Você não pode perder!</p>
-        </div>
-    </div>
-    <div id="options-container">
-        <!-- <div class="option">
-            <div class="op-content">
-                <div class="op-img">
-                    <img src="images/produts/op1.jpg" class="options-img">
-                </div>
-
-                <div class="op-info">
-                    <div class="op-text">
-                        <p class="name">Caixa de encaixar formas</p>
-                        <p class="price">R$49,99</p>
-                    </div>
-                        <button type="button" class="buy-buttom"><a href="productPage.html"><img src="images/carrinho.svg" class="options-button"></a></button>
-                </div>
+    <main>
+        <section class="section-container">
+            <div class="title-section">
+                <h1>> Descubra nosso catálogo</h1>
+                <p>Você não pode perder!</p>
             </div>
-        </div> -->
-    </div>
         
-    <!-- RODAPÉ -->
-    <div id="rodape-container">
-        <a href="index.html" class="text-rodape">Home</a>
-        <a href="aboutUs.html" class="text-rodape">Sobre nós</a>
-        <a href="catalog.html" class="text-rodape">Catálogo</a>
-    </div>
+            <div id="options-container">
+                <!-- <div class="option">
+                    <div class="op-content">
+                        <div class="op-img">
+                            <img src="images/produts/op1.jpg" class="options-img">
+                        </div>
+
+                        <div class="op-info">
+                            <div class="op-text">
+                                <p class="name">Caixa de encaixar formas</p>
+                                <p class="price">R$49,99</p>
+                            </div>
+                                <button type="button" class="buy-buttom"><a href="productPage.html"><img src="images/carrinho.svg" class="options-button"></a></button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+        
+    <!-- R O D A P É -->
+    <footer>
+        <section id="rodape-container">
+            <a href="index.html"><p>Home</p></a>
+            <a href="aboutUs.html"><p>Sobre nós</p></a>
+            <a href="catalog.html"><p>Catálogo</p></a>
+        </section>
+    </footer>
+
 </body>
 </html>

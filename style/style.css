@@ -1,5 +1,6 @@
 /* # ID | . CLASS */
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Plus+Jakarta+Sans:wght@400;600&display=swap');
+
 * { /* resetar o style */ /*deixa o site centralizado */
     padding: 0; /* nós que iremos configurar os paddings */
     margin: 0;
@@ -21,11 +22,12 @@
     display: flex;
 }
 
-/* OPTIONS 1 */
-.menu-op1 {
+
+.menu-options {
     display: flex;
 }
-.menu-text {
+
+.menu-options a{
     text-decoration: none;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 600;
@@ -34,43 +36,9 @@
     padding: 10px 15px 10px 15px;
 }
 
-/* OPTIONS 2 */
-.menu-op2 {
-    display: flex;
-
-}
-
-.menu-buttom1 {
-    border: 0px;
-    border-radius: 16px;
-    padding: 12px 20px 10px 20px;
-    background-color: #450EB0;
-    margin: 10px 5px 10px 0px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
-    
-}
-#carrinho {
+.menu-options img {
     height: 13px;
     
-}
-.menu-buttom2 {
-    border: 0px;
-    border-radius: 16px;
-    padding: 10px 20px 10px 20px;
-    background-color: #450EB0;
-    margin: 10px 0px 10px 5px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
-    
-}
-.menu-buttom2 a{
-    text-decoration: none;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 13px;
-    color: rgb(255, 255, 255);
-}
-
-.menu-buttom1:hover,.menu-buttom2:hover{
-    background-color: #5e2cc2;
 }
 
 
@@ -88,7 +56,7 @@
 }
 
 
-/* DESTAQUES */
+/* P A D R Õ E S */
 
 .section-container {
     padding: 0px 80px;
@@ -98,14 +66,7 @@
     padding: 50px 0px 20px 0px;
 }
 
-.content-container {
-    display: flex;
-    align-items: center;
-    margin: 0% 10% 3% 10%;
-}
-
-
-.titulos {
+.title-section h1 {
     display: flex;
     font-family: 'Mochiy Pop One', sans-serif;
     color: #4007B0;
@@ -113,7 +74,7 @@
     padding-bottom: 5px;  
 }
 
-.subtitulos {
+.title-section p {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 400;
     color: #F37DC7;
@@ -121,6 +82,47 @@
     font-size: 1rem;
 }
 
+p, h1, h2, h3, a, label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-decoration: none;
+}
+
+.buttom {
+    border: 0px;
+    color: white;
+    border-radius: 16px;
+    padding: 12px 15px 10px 15px;
+    background-color: #450EB0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* OUTRA SEÇÕES */
+.content-container {
+    display: flex;
+    align-items: center;
+    margin: 0% 10% 3% 10%;
+}
+
+/* RODAPÉ */
+#rodape-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: #C36AED;
+}
+
+#rodape-container p {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    margin: 40px;
+}
+
+
+/* CATÁLOGOS */
 #options-container {
     display: flex;
     align-items: center;
@@ -128,6 +130,9 @@
     column-gap: 2%;
     flex-wrap: wrap;
 }
+
+
+/* opções do catalogo */
 
 .option {
     display: flex;
@@ -141,9 +146,10 @@
     padding: 14px;
 }
 
-.options-img {
+.op-img{
     border-radius: 2%;
 }
+
 
 .op-info {
     display: flex;
@@ -153,7 +159,7 @@
 
 }
 
-.op-text {
+.op-text p{
     color: #000;
 }
 
@@ -161,18 +167,13 @@
     height: 380px;
 }
 
-.buttom {
-    border: 0px;
-    border-radius: 16px;
-    padding: 12px 15px 10px 15px;
-    background-color: #450EB0;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
-}
-
 .price{
     font-weight: 600;
 }
-/* AVALIAÇÕES */
+
+
+
+/* avaliações */
 .aval {
     background: linear-gradient(to bottom, #ffecf8, #e2e3ff);
     display: flex;
@@ -185,12 +186,7 @@
     min-height: 30%;
 }
 
-p, h1, h2, h3, a, label {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    text-decoration: none;
-}
-
-.aval-text h1{
+.aval-text h3{
     font-weight: 600;
 }
 
@@ -199,7 +195,7 @@ p, h1, h2, h3, a, label {
     padding-top: 2%;
 }
 
-.aval-img {
+.aval img {
     margin-right: 3%;
     
 }
@@ -211,7 +207,7 @@ p, h1, h2, h3, a, label {
     min-width: 20%;
 }
 
-.texto-img {
+.text-container img {
     width: 35%;
     margin-right: 3%;
     min-width: 10%;
@@ -236,21 +232,6 @@ p, h1, h2, h3, a, label {
     text-align: justify;
 }
 
-/* RODAPÉ */
-#rodape-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-    background-color: #C36AED;
-}
-
-.text-rodape {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 600;
-    display: flex;
-    margin: 40px;
-}
 
 /* Product page */
 .imagens-product{
@@ -361,17 +342,6 @@ p, h1, h2, h3, a, label {
     padding: 15px;
 }
 
-.botao-principal{
-    background-color: #450EB0;
-    color: white;
-    text-decoration: none;
-    border: 0px;
-    padding: 25px;
-    border-radius: 7%;
-    font-weight: 600;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 1rem;
-}
 
 .text-aboutUs {
     padding: 60px;
@@ -425,3 +395,9 @@ p, h1, h2, h3, a, label {
 .carrinho-container{
     padding: 0px 450px;
 }
+
+@media screen and (min-width: 1677px) {
+    #options-container {
+        padding: 0px 120px;
+    }
+  } 

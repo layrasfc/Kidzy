@@ -3,59 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <title>Kidzy | Página Inicial</title>
 </head>
+
 <body>
-    <!-- Menu -->
     <header>
-    <nav id="menu-container">
-        <a href="#" ><img src="images/Kidzy.svg" id="menu-logotipo" alt="Logo"></a>
-        <div id="menu-op">
-            <a href="index.html" class="menu-text">Home</a>
-            <a href="catalog.html" class="menu-text">Catálogo</a>
-            <a href="aboutUs.html" class="menu-text">Sobre nós</a>
+        <!-- M E N U -->
+        <nav id="menu-container">
+            <a href="#" ><img src="images/Kidzy.svg" id="menu-logotipo" alt="Logo"></a>
+            <div class="menu-options">
+                <a href="index.html">Home</a>
+                <a href="catalog.html">Catálogo</a>
+                <a href="aboutUs.html">Sobre nós</a>
+            </div>
+            <div class="menu-options">
+                <a href="carrinho.html"><button class="buttom"><img src="images/carrinho.svg" id="carrinho" alt="carrinho"></button></a>
+                <a href="login.html"><button class="buttom">Login</button></a>
+            </div>
+        </nav>
+
+        <!-- B A N N E R -->
+        <div class="banner">
+            <img src="images/Banners/HomeBanner.svg" alt="" srcset="">
         </div>
-        <div class="menu-op2">
-            <button class="menu-buttom1"><a href="carrinho.html"><img src="images/carrinho.svg" id="carrinho" alt="carrinho"></a></button>
-            <button class="menu-buttom2"><a href="#">Login</a></button>
-        </div>
-    </nav>
     </header>
-    
-     <!-- Banner -->
-    
-    <div class="banner">
-        <img src="images/Banners/HomeBanner.svg" alt="" srcset="">
-    </div>
 
-    <!-- Destaques -->
-
-    <div class="section-container">
+    <main>
+    <section class="section-container">
         <div class="title-section">
-            <h1 class="titulos">> Queridinhos do momento</h1>
-            <p class="subtitulos">Você não pode perder!</p>
+            <h1>> Queridinhos do momento</h1>
+            <p>Você não pode perder!</p>
         </div>
-
+        
         <div class="options-container">
-            <div class="option">
-                <div class="op-content">
-                    <div class="op-img">
-                    <img src="images/produts/p1/principal.jpg" class="options-img">
-                    </div>
-
-                    <div class="op-info">
-                        <div class="op-text">
-                        <p class="name">Jogo de montar peças</p>
-                        <p class="price">R$49,99</p>
-                        </div>
-                        <button type="button" class="buttom"><a href="carrinho.html"><img src="images/carrinho.svg" class="options-button"></a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="option">
+            <!-- <div class="option">
                 <div class="op-content">
                     <div class="op-img">
                         <img src="images/produts/p1/principal.jpg" class="options-img">
@@ -69,53 +52,20 @@
                         <button type="button" class="buttom"><a href="carrinho.html"><img src="images/carrinho.svg" class="options-button"></a></button>
                     </div>
                 </div>
-            </div>
-
-            <div class="option">
-                <div class="op-content">
-                    <div class="op-img">
-                        <img src="images/produts/p1/principal.jpg" class="options-img">
-                    </div>
-
-                    <div class="op-info">
-                        <div class="op-text">
-                        <p class="name">Jogo de montar peças</p>
-                        <p class="price">R$49,99</p>
-                        </div>
-                        <button type="button" class="buttom"><a href="carrinho.html"><img src="images/carrinho.svg" class="options-button"></a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="option">
-                <div class="op-content">
-                    <div class="op-img">
-                        <img src="images/produts/p1/principal.jpg" class="options-img">
-                    </div>
-
-                    <div class="op-info">
-                        <div class="op-text">
-                        <p class="name">Jogo de montar peças</p>
-                        <p class="price">R$49,99</p>
-                        </div>
-                        <button type="button" class="buttom"><a href="carrinho.html"><img src="images/carrinho.svg" class="options-button"></a></button>
-                    </div>
-                </div>
-            </div>
+            </div> -->
         </div>
-    </div>
+    </section>
    
     <!-- Avaliações -->
-    <div class="section-container">
+    <section class="section-container">
         <div class="title-section">
-            <h1 class="titulos">> Nossos clientes aprovaram!</h1>
-            <p class="subtitulos">De quem já experimentou!</p>
+            <h1>> Nossos clientes aprovaram!</h1>
+            <p>De quem já experimentou!</p>
         </div>
+
         <div class="content-container">
             <div class="aval">
-                <div class="aval-img">
-                    <img src="images/perfil.png" alt="">
-                </div>
+                <img src="images/perfil.png" alt="">
                 <div class="aval-text">
                 <h3>Marylane Silva</h3>
                 <p>"Os brinquedos são incríveis! Minha filha está adorando. São seguros e educativos. Recomendo a todos os pais!" 😊👏</p>
@@ -123,43 +73,47 @@
             </div>
 
             <div class="aval">
-                <div class="aval-img">
                 <img src="images/perfil].png" alt="">
-                </div>
+
                 <div class="aval-text">
                 <h3>Lurdes Santos</h3>
                 <p>“Minha filha fica alegre toda vez que abre uma caixa. Ótima qualidade e entrega rápida. Muito satisfeita!" 😄🌟</p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- TEXTO -->
-    <div class="section-container">
+    <section class="section-container">
         <div class="title-section">
-            <h1 class="titulos">> A importância da diversão</h1>
-            <p class="subtitulos">Melhor desenvolvimento na infância</p>
+            <h1>> A importância da diversão</h1>
+            <p>Melhor desenvolvimento na infância</p>
         </div>
 
         <div class="content-container">
-            <div class="text-container">
-            <img src="images/montar1.svg" alt="" class="texto-img">
-            <div class="texto-text">
-            <h2> As Ferramentas Mágicas do Desenvolvimento Infantil</h2>
-            <p>Bem-vindos(as) à Kidzy! Aqui, não vendemos apenas pedaços de plástico e metal, nós entregamos sonhos, aventuras e desenvolvimento infantil embalados em caixas coloridas. Porque acreditem, brincar é coisa séria!</p> 
-            <p>Os brinquedos são como os ingredientes secretos para um bolo de crescimento saudável. Eles não apenas mantêm as crianças entretidas por horas a fio (e os pais sãos de juízo), mas também desencadeiam uma série de superpoderes. Eles incentivam a criatividade, a resolução de problemas e a construção de habilidades motoras, tudo isso enquanto as crianças se divertem sem nem perceber que estão aprendendo.</p>
-            <p>Então, se você está em busca do presente perfeito ou simplesmente quer ver um sorriso radiante no rosto de uma criança, explore nossa seleção de brinquedos incríveis. De quebra-cabeças desafiadores a brinquedos educativos, temos o que você precisa para ajudar as crianças a crescerem, aprenderem e, é claro, se divertirem muito!</p>
-            <p>Entre no mundo dos brinquedos, onde a diversão nunca acaba e o desenvolvimento nunca para. Seja parte dessa jornada mágica conosco. Com nossos brinquedos, a imaginação voa e o aprendizado nunca sai de moda. 😄🚀🎨</p>
-            </div>
+            <div class="text-container">    
+                <img src="images/montar1.svg" alt="">
+                <div class="texto-text">
+                    <h2> As Ferramentas Mágicas do Desenvolvimento Infantil</h2>
+                    <p>Bem-vindos(as) à Kidzy! Aqui, não vendemos apenas pedaços de plástico e metal, nós entregamos sonhos, aventuras e desenvolvimento infantil embalados em caixas coloridas. Porque acreditem, brincar é coisa séria!</p> 
+                    <p>Os brinquedos são como os ingredientes secretos para um bolo de crescimento saudável. Eles não apenas mantêm as crianças entretidas por horas a fio (e os pais sãos de juízo), mas também desencadeiam uma série de superpoderes. Eles incentivam a criatividade, a resolução de problemas e a construção de habilidades motoras, tudo isso enquanto as crianças se divertem sem nem perceber que estão aprendendo.</p>
+                    <p>Então, se você está em busca do presente perfeito ou simplesmente quer ver um sorriso radiante no rosto de uma criança, explore nossa seleção de brinquedos incríveis. De quebra-cabeças desafiadores a brinquedos educativos, temos o que você precisa para ajudar as crianças a crescerem, aprenderem e, é claro, se divertirem muito!</p>
+                    <p>Entre no mundo dos brinquedos, onde a diversão nunca acaba e o desenvolvimento nunca para. Seja parte dessa jornada mágica conosco. Com nossos brinquedos, a imaginação voa e o aprendizado nunca sai de moda. 😄🚀🎨</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- RODAPÉ -->
-    <div id="rodape-container">
-        <a href="index.html" class="text-rodape">Home</a>
-        <a href="aboutUs.html" class="text-rodape">Sobre nós</a>
-        <a href="catalog.html" class="text-rodape">Catálogo</a>
-    </div>
+    </main>
+
+    <!-- R O D A P É -->
+    <footer>
+        <section id="rodape-container">
+            <a href="index.html"><p>Home</p></a>
+            <a href="aboutUs.html"><p>Sobre nós</p></a>
+            <a href="catalog.html"><p>Catálogo</p></a>
+        </section>
+    </footer>
+
 </body>
 </html>
