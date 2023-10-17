@@ -90,8 +90,8 @@ p, h1, h2, h3, a, label {
 .buttom {
     border: 0px;
     color: white;
-    border-radius: 16px;
-    padding: 12px 15px 10px 15px;
+    border-radius: 10px;
+    padding: 15px;
     background-color: #450EB0;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
     font-size: 0.9rem;
@@ -138,7 +138,7 @@ p, h1, h2, h3, a, label {
     display: flex;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.050);
-    margin: 15px 0px 0px 0px;
+    margin: 1% 0% 0% 0%;
     border-radius: 2%;
 }
 
@@ -396,8 +396,54 @@ p, h1, h2, h3, a, label {
     padding: 0px 450px;
 }
 
-@media screen and (min-width: 1677px) {
-    #options-container {
-        padding: 0px 120px;
+@media screen and (max-width: 1024px) {
+    .banner {
+        width: 1000px;
     }
+
   } 
+
+/* Formulário */
+.contact-us {
+    background: rgb(186,80,199);
+    background: linear-gradient(to bottom, rgb(219, 138, 230) 11%, rgb(183, 145, 233) 56%);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
+    padding: 30px;
+    margin: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.contact-container {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-us button{
+    margin-top: 15px;
+}
+
+.contact-text {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #330097;
+    padding-bottom: 3px;
+    padding-top: 5px;
+}
+
+#message, #contact_email, #contact_name {
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+#message::placeholder {
+    color: #a3a3a3;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 0 10px;
+}
