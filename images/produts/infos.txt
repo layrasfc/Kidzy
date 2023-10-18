@@ -16,3 +16,9 @@ Produto 4 - Máquina de bolhas
 Texto:
 
 Preço: 40.99
+
+Produto 6 - Conjunto Café da tarde
+Preço: 68,99
+
+Produto 7 - Maquiagens mágicas 
+150,99

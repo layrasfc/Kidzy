@@ -82,7 +82,7 @@
     font-size: 1rem;
 }
 
-p, h1, h2, h3, a, label {
+p, h1, h2, h3, h4, h5, h6, a, label {
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-decoration: none;
 }
@@ -367,41 +367,92 @@ p, h1, h2, h3, a, label {
     font-size: 1.70rem;
 }
 
+
+/* C A R R I N H O */
 .carrinho-option{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 246, 246);
+    padding: 20px;
+    border-radius: 5px;
 }
 
-.qtd-carrinho{
+.carrinho-option-img img{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.carrinho-container {
+    padding: 0px 350px;
+    margin: 18px;
+    
+}
+
+.infos-carrinho {
     display: flex;
     align-items: center;
     flex-direction: row;
 }
 
-.carrinho-option-img{
-    width: 90px;
-    height: 90px;
-    overflow: hidden;
+.more-infos-carrinho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
-.carrinho-option-img img{
-    width: 100%;
-    height: auto;
-
+/* Nome do produto */
+.carrinho-option-text{
+    padding-left: 50px;
+    
 }
 
-
-.carrinho-container{
-    padding: 0px 450px;
+.carrinho-option-text h5 {
+    font-size: 18px;
+    size: 400;
+    color:#3905A0
 }
 
-@media screen and (max-width: 1024px) {
-    .banner {
-        width: 1000px;
-    }
+.carrinho-option-text p{
+    font-size: 15px;
+    color: #cb84e0;
+    font-weight: 600;
+}
+/* Valor */
+.valor-carrinho {
+    font-weight: 600;
+    color:#00bd55;
+    margin: 0px 70px;
+    font-size: 18px;
+}
 
-  } 
+/* Quantidade */
+.qtd-carrinho{
+    padding: 5px;
+    border: #caadf1 solid 3px;
+    border-radius: 7px;
+    
+}
+
+.qtd-carrinho p{
+    margin: 0px 7px;
+    color: #b898e2;
+}
+
+.qtd-text{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Finalizar compra */
+.finalizar-compra {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Formulário */
 .contact-us {
@@ -442,8 +493,28 @@ p, h1, h2, h3, a, label {
     resize: vertical;
 }
 
-#message::placeholder {
+#message::placeholder, #contact_email::placeholder, #contact_name::placeholder {
     color: #a3a3a3;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    padding: 0 10px;
+    padding-left: 5px;
 }
+
+
+/* L O G I N A D M */
+.login-input {
+    background: rgb(111,62,209);
+    background: linear-gradient(0deg, rgba(111,62,209,1) 0%, rgba(78,179,211,1) 100%);
+}
+
+#login-container {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+/* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+    .banner {
+        width: 1000px;
+    }
+
+  } 
