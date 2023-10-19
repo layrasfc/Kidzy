@@ -432,7 +432,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 /* Quantidade */
 .qtd-carrinho{
     padding: 5px;
-    border: #caadf1 solid 3px;
+    border: #caadf1 solid 2px;
     border-radius: 7px;
     
 }
@@ -485,7 +485,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     padding-top: 5px;
 }
 
-#message, #contact_email, #contact_name {
+#message, #contact_email, #contact_name, #username, #password{
     width: 100%;
     padding: 10px 0px;
     border: 1px solid #ccc;
@@ -493,7 +493,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     resize: vertical;
 }
 
-#message::placeholder, #contact_email::placeholder, #contact_name::placeholder {
+#message::placeholder, #contact_email::placeholder, #contact_name::placeholder, #username::placeholder, #password::placeholder {
     color: #a3a3a3;
     font-family: 'Plus Jakarta Sans', sans-serif;
     padding-left: 5px;
@@ -502,19 +502,53 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 
 /* L O G I N A D M */
 .login-input {
-    background: rgb(111,62,209);
     background: linear-gradient(0deg, rgba(111,62,209,1) 0%, rgba(78,179,211,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:auto;
+    padding: 50px 80px;
+    border-radius: 15px;
+    width:fit-content;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
 }
 
 #login-container {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
+    background-color: #4700d4;
+}
+
+.login-input h1 {
+    color: white;
+    font-size: 1.00rem;
+}
+
+.login-input label {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.login-content-title {
+    padding-bottom: 15px;
+}
+
+.login-content {
+    margin: auto;
+}
+
+.login-content img {
+    height: 50px;
+    padding: 10px 0px;
+}
+.botao-login {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 0px;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
     .banner {
         width: 1000px;
     }
-
   } 

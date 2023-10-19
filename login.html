@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Kidzy | Sobre nós</title>
+    <title>Kidzy | Login Administrador</title>
 </head>
 
 <body>
@@ -26,34 +25,31 @@
         </nav>
     </header>
 
-    <main>
-        <section id="login-container">
-            <div class="login-input">
-                <img src="images/logo.svg" alt="" srcset="">
-                <h1>Olá,</h1>
-                <h1>Faça o login para entrar</h1>
-                <form>
-                    <div class="input-group">
-                    <label for="username">Usuário:</label>
-                    <input type="text" id="username" name="username" required>
+
+    <main id="login-container">
+                <div class="login-input">
+                    <div class="login-content">
+
+                    <div class="login-content-title">
+                    <img src="images/logo.svg" alt="" srcset="">
+                    <h1>Olá,</h1>
+                    <h1>Faça o login para entrar</h1>
                     </div>
-                    <div class="input-group">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" name="password" required>
+                    <form>
+                        <div class="input-group">
+                        <label for="username">Usuário:</label>
+                        <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+                        </div>
+                        <div class="input-group">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="botao-login">
+                        <button class="buttom" type="submit">Entrar</button>
+                        </div>
+                    </form>
                     </div>
-                    <button class="buttom" type="submit">Entrar</button>
-                </form>
-            </div>
-        </section>
+                </div>
     </main>
-
-    <footer>
-        <section id="rodape-container">
-            <a href="index.html"><p>Home</p></a>
-            <a href="aboutUs.html"><p>Sobre nós</p></a>
-            <a href="catalog.html"><p>Catálogo</p></a>
-        </section>
-    </footer>
-
 </body>
 </html>
