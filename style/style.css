@@ -123,7 +123,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 
 
 /* CATÁLOGOS */
-#options-container {
+#options-container, #options-home {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,8 +131,8 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     flex-wrap: wrap;
 }
 
-
 /* opções do catalogo */
+
 
 .option {
     display: flex;
@@ -285,6 +285,20 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     font-size: 1rem;
 }
 
+.quantidade-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.qntd-button{
+    border-radius: 3px;
+    border: 0px;
+    padding: 8px;
+    margin: 8px;
+    background-color: #f5edff;
+}
 
 .principal-img {
     width: 510px;
@@ -506,7 +520,8 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin:auto;
+    margin-left: 725px;
+    margin-top:auto;
     padding: 50px 80px;
     border-radius: 15px;
     width:fit-content;
@@ -514,7 +529,12 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 }
 
 #login-container {
-    background-color: #4700d4;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
 }
 
 .login-input h1 {
