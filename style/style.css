@@ -518,10 +518,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 .login-input {
     background: linear-gradient(0deg, rgba(111,62,209,1) 0%, rgba(78,179,211,1) 100%);
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 725px;
-    margin-top:auto;
+    margin: auto;
     padding: 50px 80px;
     border-radius: 15px;
     width:fit-content;
