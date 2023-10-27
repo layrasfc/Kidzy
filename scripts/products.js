@@ -3,13 +3,13 @@ export const catalogPrincipal = [
         cod: 1,
         name: "Girafa Esticadinha",
         price: 35.95,
-        descricao: "A gIrafa Esticadinha é um brinquedo sensorial que cativará a imagInação das crianças com sua ação rápida e dinâmica. Esta adorável gIrafa tem uma aparência amigável, com cores vibrantes e texturas interessantes que atraem os sentidos dos pequenos exploradores.",
+        descricao: "A Girafa Esticadinha é um brinquedo sensorial que cativará a imagInação das crianças com sua ação rápida e dinâmica. Esta adorável gIrafa tem uma aparência amigável, com cores vibrantes e texturas interessantes que atraem os sentidos dos pequenos exploradores.",
         idade: "A partir de 9 meses",
-
+        itens: "1 robô coelha, 1 pacote de pilhas AAA",
         imgPrincipal: "./images/produts/p1/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
 
     },
     {
@@ -20,9 +20,9 @@ export const catalogPrincipal = [
         itens: "1 robô coelha, 1 pacote de pilhas AAA",
         idade: "A partir de 3 anos",
         imgPrincipal: "./images/produts/p2/principal.jpg",
-        imgExtra: "./images/produts/p1/extra.jpg",
-        imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg",
+        imgExtra: "./images/produts/p2/extra.jpg",
+        imgInfo: "./images/produts/p2/info.jpg",
+        imgModelo: "./images/produts/p2/modelos.jpg",
         
     },
     {
@@ -33,9 +33,9 @@ export const catalogPrincipal = [
         itens: "1 caixa sensorial, 6 formas diversas",
         idade: "A partir de 1 ano",
         imgPrincipal: "./images/produts/p3/principal.jpg",
-        imgExtra: "./images/produts/p1/extra.jpg",
-        imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgExtra: "./images/produts/p3/extra.jpg",
+        imgInfo: "./images/produts/p3/info.jpg",
+        imgModelo: "./images/produts/p3/modelos.jpg"
     },
     {
         cod: 4,
@@ -46,7 +46,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p4/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 5,
@@ -58,7 +58,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p5/principal.jpg", 
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 6,
@@ -70,7 +70,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p6/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 7,
@@ -82,7 +82,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p7/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 8,
@@ -94,7 +94,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p8/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 9,
@@ -106,7 +106,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p9/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 10,
@@ -118,7 +118,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p10/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 11,
@@ -130,7 +130,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p11/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
     },
     {
         cod: 12,
@@ -140,7 +140,7 @@ export const catalogPrincipal = [
         imgPrincipal: "./images/produts/p12/principal.jpg",
         imgExtra: "./images/produts/p1/extra.jpg",
         imgInfo: "./images/produts/p1/info.jpg",
-        imgModelo: "./images/produts/p1/modelo.jpg"
+        imgModelo: "./images/produts/p1/modelos.jpg"
 
     }  
 ]

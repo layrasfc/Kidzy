@@ -241,6 +241,17 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     justify-content: space-between;
 }
 
+.buttom-product{
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #450EB0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
 .product-container {
     padding: 1% 8% 0%;
 }
@@ -289,17 +300,19 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
 }
 
 .qntd-button{
     border-radius: 3px;
     border: 0px;
     padding: 8px;
-    margin: 8px;
+
     background-color: #f5edff;
 }
 
+.quantidade {
+    margin-top: 25px;;
+}
 .principal-img {
     width: 510px;
 }
@@ -400,17 +413,12 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     border-radius: 5px;
 }
 
-.carrinho-container {
-    padding: 0px 350px;
-    margin: 18px;
-    
+.carrinho-option-container {
+    display: flex;
+    justify-content: center;    
 }
 
-.infos-carrinho {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
+
 
 .more-infos-carrinho {
     display: flex;
@@ -419,10 +427,6 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 }
 
 /* Nome do produto */
-.carrinho-option-text{
-    padding-left: 50px;
-    
-}
 
 .carrinho-option-text h5 {
     font-size: 18px;
@@ -439,16 +443,16 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 .valor-carrinho {
     font-weight: 600;
     color:#00bd55;
-    margin: 0px 70px;
     font-size: 18px;
 }
 
 /* Quantidade */
 .qtd-carrinho{
     padding: 5px;
-    border: #caadf1 solid 2px;
+    display: flex;
     border-radius: 7px;
-    
+    flex-direction: row;
+    align-items: center;
 }
 
 .qtd-carrinho p{
