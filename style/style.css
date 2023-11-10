@@ -306,8 +306,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     border-radius: 3px;
     border: 0px;
     padding: 8px;
-
-    background-color: #f5edff;
+    background-color: #a055ff;
 }
 
 .quantidade {
@@ -401,10 +400,12 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(247, 246, 246);
+    background-color: rgb(250, 250, 250);
     padding: 20px;
     border-radius: 5px;
+    width: 900px;
 }
+
 
 .carrinho-option-img img{
     width: 80px;
@@ -415,7 +416,8 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 
 .carrinho-option-container {
     display: flex;
-    justify-content: center;    
+    height: fit-content;
+    justify-content: center;
 }
 
 
@@ -457,7 +459,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 
 .qtd-carrinho p{
     margin: 0px 7px;
-    color: #b898e2;
+    color: #5b00d3;
 }
 
 .qtd-text{
@@ -572,4 +574,12 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     .banner {
         width: 1000px;
     }
+
+
   } 
+
+  @media screen and (min-width: 100px){
+    #options-container {
+        column-gap: 3%;
+    }
+  }
