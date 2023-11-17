@@ -1,9 +1,8 @@
-import { catalogPrincipal } from "../scripts/products.js";
-import { carregaProdutos } from "../scripts/funcoes.js";
-import { handleClick } from "../scripts/funcoes.js";
+import { catalogoProdutos } from "./dados.js";
+import { carregaCard, pegarCodProduto } from "../scripts/funcoes.js";
 
-let listaProdutosDestaque = catalogPrincipal.filter(produto => produto.cod < 5);
+let listaProdutosDestaque = catalogoProdutos.filter(produto => produto.cod < 5);
 let gridDestaque = document.querySelector("#options-home");
 
-carregaProdutos(listaProdutosDestaque, gridDestaque)
-handleClick()
+carregaCard(listaProdutosDestaque, gridDestaque)
+pegarCodProduto()

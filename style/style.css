@@ -41,6 +41,15 @@
     
 }
 
+.menu-options a:hover{
+    transform: scale(1.05);
+    transition: transform 100ms;
+    color: #222222;
+}
+
+.menu-options a:active{
+    color:#330097;
+}
 
 /* BANNER */
 .banner {
@@ -98,6 +107,15 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     font-weight: 600;
 }
 
+.buttom:hover, .buttom-product:hover {
+    transform:scale(1.1);
+    transition: transform 100ms;
+}
+
+.buttom, .buttom-product:active {
+    background-color: #5f22d8;
+}
+
 /* OUTRA SEÇÕES */
 .content-container {
     display: flex;
@@ -131,6 +149,8 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     flex-wrap: wrap;
 }
 
+
+
 /* opções do catalogo */
 
 
@@ -142,6 +162,10 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     border-radius: 2%;
 }
 
+.option:hover {
+    transform: scale(1.05);
+    transition: transform 200ms;
+}
 .op-content {
     padding: 14px;
 }
@@ -185,6 +209,11 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     justify-content: center;
     min-height: 30%;
 }
+
+.aval:hover {
+    scale: 1.1;
+    transition: scale 500ms;
+  }
 
 .aval-text h3{
     font-weight: 600;
@@ -260,6 +289,13 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     padding: 15px 0px 15px 0px;
     width: 100px;
    
+}
+
+.tam-img img:hover {
+    transform: scale(1.02);
+    transition: transform 200ms;
+    border: 3px solid #3700A3;
+    
 }
 
 .tam-img img{
@@ -406,7 +442,6 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     width: 900px;
 }
 
-
 .carrinho-option-img img{
     width: 80px;
     display: flex;
@@ -417,8 +452,11 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 .carrinho-option-container {
     display: flex;
     height: fit-content;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
 
 
 
