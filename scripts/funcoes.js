@@ -38,6 +38,7 @@ export function findProduto(listaProdutos, id){
     return produto
 }
 
+
 export function carregaPageProduto(produto, selecaoProduto){
     let html = `<div class="product-image-container">
 <div class="imagens-product">
@@ -69,7 +70,7 @@ export function carregaPageProduto(produto, selecaoProduto){
 
             <div class="quntd-p">
                 <p>Quantidade</p>
-                <input type="number" name="" id="" value="1">
+                <input type="number" name="" id="" value="01" min="1" oninput="this.value = this.value.padStart(2, '0')">
             </div>
         </div>
 

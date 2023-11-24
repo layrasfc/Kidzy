@@ -5,38 +5,39 @@ if (pedidos == null){
     pedidos = []
 }
 
-let cartList = document.querySelector('ul.lista-carrinho')
+let cartList = document.querySelector('ul')
 
 
 sacolaCompras.forEach(item => {
-    let html = `<li class="carrinho-option" id="${item.cod}">
-    <div class="product-infos">
+    let html = `
+    <li class="carrinho-option" id="${item.cod}">
         <div class="carrinho-option-img">
-                <img src="${item.imgPrincipal}" alt="" srcset="">
+            <img src="${item.imgPrincipal}" alt="" srcset="">
         </div>
         <div class="carrinho-option-text">
             <h5>${item.name}</h5>
             <p>Idade: ${item.idade}</p>
         </div>
-    </div>
-    <div class="qtd-carrinho">
-        <button class="qntd-button"><img src="images/Mais.svg" alt=""></button>
-            <p>${item.quantidade}</p>
-        <button class="qntd-button"><img src="images/Menos.svg" alt="" srcset=""></button>
-    </div>
+        <div class="qtd-carrinho">
+            <button class="qntd-button"><img src="images/Mais.svg" alt=""></button>
+                <p>${item.quantidade}</p>
+            <button class="qntd-button"><img src="images/Menos.svg" alt="" srcset=""></button>
+        </div>
 
-    <div class="valor-carrinho">
-        <p>${item.price}</p>
-    </div>
+        <div class="valor-carrinho">
+            <p>R$${item.price}</p>
+        </div>
 
-    <div class="excluir-carrinho">
-        <img src="images/Excluir.svg" alt="" srcset="">
-    </div>
-</li>`
+        <div class="excluir-carrinho">
+            <img src="images/Excluir.svg" alt="" srcset="">
+        </div>
+    </li>`
 cartList.innerHTML += html
 });
 
-let botaoDel = document.querySelector("div.excluir-carrinho")
+
+
+let botaoDel = document.querySelectorAll("div.excluir-carrinho")
 botaoDel.forEach(botao => botao.addEventListener('click', (event) => {
     let item = event.target.parentElement.parentElement
     cartList.removeChild(item)
@@ -61,6 +62,7 @@ finalizar.forEach(botao => botao.addEventListener('click', ()=> {
     }
     pedidos.push(pedido)
     localStorage.setItem('pedidos', JSON.stringify(pedidos))
+    alert('Compra finalizada!')
 }))
 
 

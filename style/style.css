@@ -471,16 +471,6 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     border-radius: 5px;
 }
 
-.carrinho-option-text h5{
-    font-size: 25px;
-    padding-left: 50px;
-}
-
-.product-infos {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
 .carrinho-option-container {
     display: flex;
     height: fit-content;
@@ -489,6 +479,8 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     align-items: center;
 }
 
+
+
 .more-infos-carrinho {
     display: flex;
     align-items: center;
@@ -496,10 +488,17 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 }
 
 .excluir-carrinho {
-    padding: 20px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #cecece;
+    margin: 20px;
+}
+.excluir-carrinho img{
+    width: 25px;
 }
 
-.excluir-carrinho img:hover {
+.excluir-carrinho:hover {
     transform: scale(1.07);
     transition: transform 200ms;
 }
@@ -538,6 +537,9 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 .qtd-carrinho p{
     margin: 0px 7px;
     color: #5b00d3;
+    border: 2px solid #a055ff;
+    border-radius: 3px;
+    padding: 4px 15px;
 }
 
 .qtd-text{
