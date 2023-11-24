@@ -66,6 +66,11 @@ export function carregaPageProduto(produto, selecaoProduto){
             <div class="text-p">
             <p class="espec-product">Idade: ${produto.idade}</p>
             </div>
+
+            <div class="quntd-p">
+                <p>Quantidade</p>
+                <input type="number" name="" id="" value="1">
+            </div>
         </div>
 
         </div>

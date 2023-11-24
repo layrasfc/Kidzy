@@ -15,8 +15,10 @@ carregaPageProduto(produto, selecaoProduto)
 let botaoComprar = document.querySelector("#adicionar-buttom")
 console.log(botaoComprar)
 
+
 botaoComprar.addEventListener('click', ()=>{
-    let newProduto = {...produto}
+    let quantidade = parseInt(document.querySelector("div.quntd-p input").value)
+    let newProduto = {...produto, quantidade}
     alert("Item adicionado ao carrinho!")
     sacolaCompras.push(newProduto)
     localStorage.setItem('sacolaCompras', JSON.stringify(sacolaCompras))

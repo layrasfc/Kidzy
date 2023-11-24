@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script type="module" src="./scripts/carrinho.js" defer></script>
     <title>Kidzy | Carrinho</title>
 </head>
 <body>
@@ -38,14 +39,16 @@
         </div>
 
         <div class="carrinho-option-container">
-            <div class="carrinho-option">
-                <div class="carrinho-option-img">
-                        <img src="images/produts/p1/principal.jpg" alt="" srcset="">
-                </div>
-                <div class="carrinho-option-text">
-                    <h5>Caixa de encaixar formas</h5>
-                    <p>Tam: único</p>
-                    <p>Cor: padrão</p>
+            <div class="carrinho-infos">
+            <!-- <ul class="lista-carrinho">
+            <li class="carrinho-option">
+                <div class="product-infos">
+                    <div class="carrinho-option-img">
+                            <img src="images/produts/p1/principal.jpg" alt="" srcset="">
+                    </div>
+                    <div class="carrinho-option-text">
+                        <h5>Caixa de encaixar formas</h5>
+                    </div>
                 </div>
                 <div class="qtd-carrinho">
                     <button class="qntd-button"><img src="images/Mais.svg" alt=""></button>
@@ -60,17 +63,18 @@
                 <div class="excluir-carrinho">
                     <img src="images/Excluir.svg" alt="" srcset="">
                 </div>
-            </div>
-
+            </li>
+            </ul> -->
             <div class="carrinho-container">
                 <div class="finalizar-compra">
                 <div class="total-valor">
-                <p>Total:</p>
+                <h2>Total:</h2>
                 <p>R$149,99</p>
                 </div>
-                <button class="buttom">Finalizar compra</button>
+                <button class="buttom" id="finalizar-compra-buttom">Finalizar compra</button>
                 </div>
             </div>
+        </div>
         </div>
  
 
