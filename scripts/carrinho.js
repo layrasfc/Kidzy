@@ -19,9 +19,7 @@ sacolaCompras.forEach(item => {
             <p>Idade: ${item.idade}</p>
         </div>
         <div class="qtd-carrinho">
-            <button class="qntd-button"><img src="images/Mais.svg" alt=""></button>
-                <p>${item.quantidade}</p>
-            <button class="qntd-button"><img src="images/Menos.svg" alt="" srcset=""></button>
+            <input type="number" id="" value="${item.quantidade}" min="1">
         </div>
 
         <div class="valor-carrinho">
@@ -34,7 +32,6 @@ sacolaCompras.forEach(item => {
     </li>`
 cartList.innerHTML += html
 });
-
 
 
 let botaoDel = document.querySelectorAll("div.excluir-carrinho")
