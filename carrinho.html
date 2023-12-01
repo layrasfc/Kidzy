@@ -71,12 +71,33 @@
 
             <div class="carrinho-container">
                 <div class="finalizar-compra">
-                <div class="total-valor">
-                <h2>Total:</h2>
-                <p>R$149,99</p>
+                <a href="catalog.html"><button class="verMaisbutton">Ver mais produtos</button></a>
+                <a href="endereco.html"><button class="buttom" id="finalizar-compra-buttom">Continuar compra</button></a>
                 </div>
-                <a href="endereco.html"><button class="buttom" id="finalizar-compra-buttom">Finalizar compra</button></a>
-                </div>
+
+                <div class="form-container">
+                    <h1>Digite o endereço para entrega:</h1>
+                    <form action="" id="endereco-form">
+                        <label for="name">Nome Completo:</label>
+                        <input type="text" id="nome" name="name">
+                        <label for="logradouro">Logradouro:</label>
+                        <input type="text" id="logradouro" name="logradouro">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" id="bairro" name="bairro">
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="estado">
+                        <label for="estado">Estado:</label>
+                        <input type="text" id="estado" name="estado">
+                        <label for="CEP">CEP:</label>
+                        <input type="text" id="CEP" name="CEP">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" id="telefone" name="telefone">
+                        <label for="e-mail">E-mail:</label>
+                        <input type="email" id="email" name="email">
+                    </form>
+                    <button class="buttom">Finalizar compra</button>
+                    </div>
+                
             </div>
         </div>
         </div>

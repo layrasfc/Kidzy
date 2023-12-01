@@ -19,11 +19,11 @@ sacolaCompras.forEach(item => {
             <p>Idade: ${item.idade}</p>
         </div>
         <div class="qtd-carrinho">
-            <input type="number" id="" value="${item.quantidade}" min="1">
+            <p>${item.quantidade}</p>
         </div>
 
         <div class="valor-carrinho">
-            <p>R$${item.price}</p>
+            <p>R$${item.price * item.quantidade}</p>
         </div>
 
         <div class="excluir-carrinho">

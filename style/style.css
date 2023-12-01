@@ -44,12 +44,9 @@
 .menu-options a:hover{
     transform: scale(1.05);
     transition: transform 100ms;
-    color: #222222;
+    color: #4630c4;
 }
 
-.menu-options a:active{
-    color:#330097;
-}
 
 /* BANNER */
 .banner {
@@ -91,7 +88,7 @@
     font-size: 1rem;
 }
 
-p, h1, h2, h3, h4, h5, h6, a, label {
+p, h1, h2, h3, h4, h5, h6, a, label, form {
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-decoration: none;
 }
@@ -101,19 +98,19 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     color: white;
     border-radius: 10px;
     padding: 15px;
-    background-color: #450EB0;
+    background-color: #3e00bb;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
     font-size: 0.9rem;
     font-weight: 600;
 }
 
-.buttom:hover, .buttom-product, .buttonAlert:hover {
-    transform:scale(1.1);
+.buttom:hover, .buttom-product, .buttonAlert, .verMaisbutton:hover {
+    transform:scale(1.02);
     transition: transform 100ms;
 }
 
 .buttom, .buttom-product, .buttonAlert:active {
-    background-color: #5f22d8;
+    background-color: #763bec;
 }
 
 /* OUTRA SEÇÕES */
@@ -474,8 +471,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     align-items: center;
 }
 
-
-.alert{
+.alert {
     background-color: white;
     position: fixed;
     top: 50%;
@@ -483,20 +479,18 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     transform: translate(-50%, -50%);
     padding: 70px;
     border-radius: 5px;
-
+  
     font-size: 1.1rem;
     font-weight: 600;
     font-family: 'Plus Jakarta Sans', sans-serif;
-
+  
     display: flex;
     flex-direction: column;
     align-items: center;
-
     box-shadow: 2px 2px 180px rgba(0, 0, 0, 0.336);
 }
-
-
-.buttonAlert{
+  
+.buttonAlert {
     border: 0px;
     color: white;
     border-radius: 2px;
@@ -509,6 +503,7 @@ p, h1, h2, h3, h4, h5, h6, a, label {
     margin: 10px;
     width: fit-content;
 }
+
 
 .more-infos-carrinho {
     display: flex;
@@ -565,40 +560,37 @@ p, h1, h2, h3, h4, h5, h6, a, label {
 
 .qtd-carrinho p{
     margin: 0px 7px;
-    color: #5b00d3;
+    color: #19003a;
     border: 2px solid #a055ff;
     border-radius: 3px;
     padding: 4px 15px;
 }
 
-.qtd-text{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-
-.qntd-button:hover {
-    transform: scale(1.06);
-    transition: transform 200ms;
-}
 /* Finalizar compra */
 .finalizar-compra {
     display: flex;
-    justify-content: space-between;
     padding-top: 70px;
+    justify-content: flex-end;
 }
 
-.finalizar-compra p {
-    font-size: 18px;
+.verMaisbutton {
+    border: 0px;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: #1b62ce;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
+    font-size: 0.9rem;
     font-weight: 600;
-    color:#00bd55;
 }
 
-.finalizar-compra h2{
-    font-size: 15px;
-    font-weight: 400;
+.verMaisbutton:active{
+    background-color: #488bf0;
 }
+
+
+
 
 /* Formulário */
 .contact-us {
@@ -709,3 +701,45 @@ p, h1, h2, h3, h4, h5, h6, a, label {
         column-gap: 3%;
     }
   }
+
+
+  /* FORMULARIO ENDERECO */
+
+.form-container {
+    display: flex;
+    background-color: #380b92;
+    padding: 100px 130px;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.form-container h1{
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    color: white;
+}
+
+#endereco-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+#endereco-form label{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#endereco-form input{
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+}
+
+.form-container button{
+    margin: 30px 0px;
+}
+
+
