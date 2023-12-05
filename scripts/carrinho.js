@@ -1,6 +1,7 @@
+
 let sacolaCompras = JSON.parse(localStorage.getItem("sacolaCompras"))
 
-let pedidos = JSON.parse(localStorage.getItem("pedido"))
+let pedidos = JSON.parse(localStorage.getItem("pedidos"))
 if (pedidos == null){
     pedidos = []
 }
@@ -46,20 +47,34 @@ botaoDel.forEach(botao => botao.addEventListener('click', (event) => {
 }
 ))
 
-let finalizar = document.querySelectorAll("div.finalizar-compra-buttom")
+let finalizar = document.querySelectorAll("button#finalizar-compra-buttom")
+
+
 finalizar.forEach(botao => botao.addEventListener('click', ()=> {
-    let codPedido = pedidos.length
+    let endereco = {
+        nome: document.querySelector("input#nome").value,
+        logradouro: document.querySelector("input#logradouro").value,
+        bairro: document.querySelector("input#bairro").value,
+        cidade: document.querySelector('input#cidade').value,
+        estado: document.querySelector('input#estado').value
+    }
+
+    let codPedido = pedidos.length + 1
     if (pedidos == null || pedidos == 0){
         codPedido = 1
     }
 
     let pedido = {
         itens: sacolaCompras,
+        endereco: endereco,
         id: codPedido
     }
-    pedidos.push(pedido)
-    localStorage.setItem('pedidos', JSON.stringify(pedidos))
+
     alert('Compra finalizada!')
+    pedidos.push(pedido)
+    console.log(pedidos)
+    localStorage.setItem('pedidos', JSON.stringify(pedidos))
+    
 }))
 
 

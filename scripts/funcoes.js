@@ -33,6 +33,25 @@ export function pegarCodProduto(){
     }))
 }
 
+// export function showAlert(message) {
+//     const alertBox = document.createElement("div"); 
+//     alertBox.classList.add("alert"); 
+//     alertBox.innerHTML = message; 
+
+//     const okButton = document.createElement("div");
+//     okButton.classList.add("buttonAlert");
+//     okButton.textContent = "Concluir";
+
+    
+//     okButton.addEventListener('click', (event) => {
+//         event.stopPropagation(); // Previne propagação do evento de click
+//         alertBox.parentNode.removeChild(alertBox); 
+//       });
+
+//     alertBox.appendChild(okButton);
+//     document.body.appendChild(alertBox);
+// } 
+
 export function findProduto(listaProdutos, id){
     let produto = listaProdutos.find(produto => produto.cod == id)
     return produto
