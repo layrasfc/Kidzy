@@ -762,7 +762,6 @@ p, h1, h2, h3, h4, h5, h6, a, label, form, li, ul {
     display: flex;
     flex-direction: column;
     margin: auto;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.040);
 }
 
 .info-pedidos-container {
@@ -777,7 +776,6 @@ p, h1, h2, h3, h4, h5, h6, a, label, form, li, ul {
     color:#222222;
 }
 
-
 .info-more-pedido {
     font-size: 1.03rem;
     font-weight: 400;
@@ -787,32 +785,10 @@ p, h1, h2, h3, h4, h5, h6, a, label, form, li, ul {
     background-color:#6c44bd;
 }
 
-.pedidos-container {
-    background-image: url('../images/background.png');
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    height: 100vh;
-}
-
 .titulo-pedido {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-}
-
-.excluir-pedido {
-    padding: 5px;
-    border: 0px;
-    border-radius: 5px;
-    background-color: #cecece;
-    height: fit-content;
-
-}
-
-.excluir-pedido img{
-    width: 25px;
 }

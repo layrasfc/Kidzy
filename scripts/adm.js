@@ -10,7 +10,6 @@ data.forEach(pedido => {
     div.innerHTML += `<h2 class="itens-pedido">> Itens do Pedido ${pedido.id}</h2>`;
     div.innerHTML += `<h3 class="nome-pedido">Cliente: ${pedido.endereco.nome}</h3>`;
     informacoes.appendChild(div)
-    informacoes.innerHTML += `<div class="excluir-pedido"><img src="/images/Excluir.svg"></div>`;
     resultadoDiv.appendChild(informacoes);
     
     pedido.itens.forEach(item => {
